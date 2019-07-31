@@ -1,0 +1,28 @@
+#survey {
+  margin: 40px;
+  background: FEE396;
+  color: #575757;
+}
+
+form > * {
+  margin-top: 20px;
+}
+
+body {
+  font: 12px Georgia, serif;
+  text-align: center;
+  background-image: radial-gradient(#FEE396 75%, #F4D487 25%);
+}
+
+label {
+  font: italic bold 14px Georgia, serif;
+}
+
+#title {
+  font: bold 30px Georgia, serif;
+}
+
+#description {
+  font: italic 15px Georgia, serif;
+  margin-bottom: 40px;
+}

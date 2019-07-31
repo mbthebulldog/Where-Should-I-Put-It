@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Where Should I Put It?</title>
+  
+  
+  
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="survey">
+
+  <h1 id="title"> Where Should I Put It?</h1>
+  <p id="description">
+    If you're holding it and you don't know where it goes, we can help!
+  </p>
+
+  <form id="survey-form">
+    <!--Name Entry-->
+    <div>
+      <label id="name-label" for="name">Name: </label>
+      <input id="name" type="text" required style="width:200px" placeholder="e.g. Prisctina Furbatchotots">
+    </div>
+    <!--Email Entry-->
+    <div>
+      <label id="email-label" for="email">Email: </label>
+      <input id="email" type="email" required style="width:200px" placeholder="e.g. friends.is.my.favorite@sit.com">
+    </div>
+    <!--Number of Rooms Entry-->
+    <div>
+      <label id="number-label" for="number">Number of Rooms in your Modest Home:       </label>
+      <input id="number" type="number" required style="width:100px" min="0" max="10" placeholder="11 is immodest">
+    </div>
+    <!--Which Room Entry-->
+    <div>
+      <select id="dropdown">
+        <option disabled value>Which room are you in now?</option>
+        <option  value="kitchen">The room with all the food</option>
+        <option value="bedroom">The room with the big fluffy curtains</option>
+        <option value="den">The room with all the lions</option>
+        <option  value="basemenet">The room with all the creaking noises</option>
+        <option value="attic">The room where my Uncle Fred secretly lives</option>
+        <option value="backyard">The room with all the outside</option>
+      </select>
+    </div>
+    <!--Adjective Entry-->
+    <div>
+      <label for="adjective">Which adjective (or adverb) best describes the item you are holding?</label><br>
+        <input type="radio" name="adjective" value="fuzzy"> Fuzzy<br>
+        <input type="radio" name="adjective" value="lumpily"> Lumpily<br>
+        <input type="radio" name="adjective" value="rigid"> Rigid<br>
+        <input type="radio" name="adjective" value="farcical"> Farcical<br>
+        <input type="radio" name="adjective" value="hairy"> Hairy<br>
+        <input type="radio" name="adjective" value="softly"> Softly<br>
+        <input type="radio" name="adjective" value="swift"> Swift<br>
+        <input type="radio" name="adjective" value="fearlessly"> Fearlessly<br>
+    </div>
+    <!--Noun Entry-->
+    <div>
+      <label for="noun">Which noun (or nouns) may have once been adjacent to the item you are holding?</label><br>
+      <input type="checkbox" name="noun" value="bicycle">Bicycle<br>
+      <input type="checkbox" name="noun" value="hat">Hat<br>
+      <input type="checkbox" name="noun" value="squash">Squash<br>
+      <input type="checkbox" name="noun" value="futon">Futon<br>
+      <input type="checkbox" name="noun" value="brandy">Brandy<br>
+      <input type="checkbox" name="noun" value="antenna">Antenna<br>
+      <input type="checkbox" name="noun" value="forgetmenot">Forget-Me-Not<br>
+      <input type="checkbox" name="noun" value="handkerchief">Handkerchief<br>
+    </div>
+    <!--Texture Entry-->
+    <div>
+      <label for="texture">Le Penultimate Question:</label><br>
+      <textarea id="texture" name="texture" style="height:100px;width:200px" placeholder="Doth you observeth any strange or irascible textures about the object?"></textarea>
+    </div>
+    <!--Submit Button-->
+    <div>
+      <button id="submit" name="submit">Remit to Internal Confused Persons Affairs for Latent-Perceptive Processing</button>
+    </div>
+  </form>
+
+</div>
+  
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
